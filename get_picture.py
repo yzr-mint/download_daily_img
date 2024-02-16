@@ -8,8 +8,7 @@ import time, re
 
 # 定义爬取的目标网站的URL
 url = "https://postimg.cc/gallery/4cbmpHW"
-download_dir = r"C:\Users\14491\Desktop\get-picture\downloaded_images"
-driver_path = "D:/工具/edge_driver/msedgedriver.exe"
+
 pattern = r'https://postimg\s*\.\s*cc/gallery/([^\s\n]+)'
 def handle_text(text : str):
     try:    
